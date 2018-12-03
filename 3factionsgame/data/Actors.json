@@ -1,0 +1,15 @@
+[
+null,
+{"id":1,"battlerName":"Actor1_1","characterIndex":0,"characterName":"Actor1","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Harold","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Actor1_8","characterIndex":7,"characterName":"Actor1","classId":2,"equips":[2,1,2,3,0],"faceIndex":7,"faceName":"Actor1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Therese","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"Actor3_8","characterIndex":7,"characterName":"Actor3","classId":3,"equips":[3,0,2,3,4],"faceIndex":7,"faceName":"Actor3","traits":[],"initialLevel":1,"maxLevel":99,"name":"Marsha","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"Actor2_7","characterIndex":6,"characterName":"Actor2","classId":4,"equips":[4,0,2,3,4],"faceIndex":6,"faceName":"Actor2","traits":[],"initialLevel":1,"maxLevel":99,"name":"Lucius","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"","characterIndex":0,"characterName":"chars1","classId":5,"equips":[5,11,10,13,12],"faceIndex":0,"faceName":"faces1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Harold","nickname":"","note":"","profile":""},
+{"id":6,"battlerName":"","characterIndex":1,"characterName":"chars1","classId":6,"equips":[6,7,6,9,8],"faceIndex":1,"faceName":"faces1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Alex","nickname":"","note":"","profile":""},
+{"id":7,"battlerName":"","characterIndex":2,"characterName":"chars1","classId":7,"equips":[9,7,6,9,8],"faceIndex":2,"faceName":"faces1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Anna","nickname":"","note":"","profile":""},
+{"id":8,"battlerName":"","characterIndex":3,"characterName":"chars1","classId":8,"equips":[8,0,0,0,0],"faceIndex":3,"faceName":"faces1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Renat","nickname":"","note":"","profile":""},
+{"id":9,"battlerName":"","characterIndex":4,"characterName":"chars1","classId":9,"equips":[7,0,0,0,0],"faceIndex":4,"faceName":"faces1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Rana","nickname":"","note":"","profile":""},
+{"id":10,"battlerName":"","characterIndex":5,"characterName":"chars1","classId":10,"equips":[10,0,0,0,0],"faceIndex":5,"faceName":"faces1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Lust","nickname":"","note":"","profile":""},
+{"id":11,"battlerName":"","characterIndex":6,"characterName":"Monster","classId":11,"equips":[11,0,5,0,0],"faceIndex":6,"faceName":"Monster","traits":[],"initialLevel":1,"maxLevel":99,"name":"Horror","nickname":"","note":"","profile":""},
+{"id":12,"battlerName":"","characterIndex":6,"characterName":"Actor1","classId":5,"equips":[15,19,18,21,20],"faceIndex":6,"faceName":"faces1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Not-Ragna","nickname":"","note":"","profile":""}
+]
