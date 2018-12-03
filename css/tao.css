@@ -1,0 +1,46 @@
+body {
+  background-color: #332320;
+  text-align: center;
+}
+
+#intro .a1 em {
+   color: pink;
+   background-color:blue;
+}
+
+#intro {
+  color: white;
+  background-color: gray;
+  border: 1px solid #cccccc;
+  border-radius: 1px;
+  border-width: 16px;
+}
+
+.par1 {
+  font-size: 64px;
+  color: red;
+  background-color: lime;
+}
+
+#mid {
+  color: yellow;
+}
+
+h1 {
+  font-size: 88px;
+  color: #FFF3DE;
+  font-family:"segoe print" ;
+}
+
+h2 {
+  color: #d8d8d8;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 30px;
+  color: #FFF3DE;
+  font-family: "segoe print";
+  padding: 0 220px
+
+}

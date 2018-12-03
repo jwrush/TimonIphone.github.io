@@ -1,0 +1,42 @@
+body {
+  background: linear-gradient(30deg, #000000, #293676);
+  text-align: center;
+}
+
+#intro .a1 em {
+   color: pink;
+   background-color:blue;
+}
+
+#intro {
+  color: white;
+  background-color: gray;
+  border: 1px solid #cccccc;
+  border-radius: 1px;
+  border-width: 16px;
+}
+
+.par1 {
+  font-size: 64px;
+  color: red;
+  background-color: lime;
+}
+
+#mid {
+  color: yellow;
+}
+
+h1 {
+  font-size: 28px;
+  color: #FF9F00;
+}
+
+h2 {
+  color: #d8d8d8;
+}
+
+p {
+  font-size: 20px;
+  color: #FFB642;
+
+}
