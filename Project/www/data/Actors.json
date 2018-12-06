@@ -7,5 +7,5 @@ null,
 {"id":5,"battlerName":"","characterIndex":0,"characterName":"ch1","classId":6,"equips":[6,5,0,5,0],"faceIndex":1,"faceName":"faces1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Ragna","nickname":"Grim Reaper","note":"","profile":""},
 {"id":6,"battlerName":"","characterIndex":1,"characterName":"ch1","classId":5,"equips":[5,6,0,0,0],"faceIndex":2,"faceName":"faces1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Noel","nickname":"","note":"","profile":""},
 {"id":7,"battlerName":"","characterIndex":3,"characterName":"lisa","classId":7,"equips":[7,7,0,0,0],"faceIndex":3,"faceName":"lisa","traits":[],"initialLevel":1,"maxLevel":99,"name":"Lisa","nickname":"","note":"","profile":""},
-{"id":8,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+{"id":8,"battlerName":"","characterIndex":2,"characterName":"ch1","classId":8,"equips":[0,0,0,0,0],"faceIndex":4,"faceName":"faces1","traits":[],"initialLevel":1,"maxLevel":99,"name":"Henry","nickname":"","note":"","profile":""}
 ]
