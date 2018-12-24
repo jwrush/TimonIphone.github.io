@@ -1,0 +1,47 @@
+body {
+  background-color: #365460;
+  text-align: left;
+}
+
+#intro .a1 em {
+   color: pink;
+   background-color:blue;
+}
+
+#intro {
+  color: white;
+  background-color: gray;
+  border: 1px solid #cccccc;
+  border-radius: 1px;
+  border-width: 16px;
+}
+
+.par1 {
+  font-size: 64px;
+  color: red;
+  background-color: lime;
+}
+
+#mid {
+  color: yellow;
+}
+
+h1 {
+  font-size: 48px;
+  color: #FF9F00;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: #d8d8d8;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 30px;
+  color: #FFB642;
+  font-family: sans-serif;
+
+
+}
