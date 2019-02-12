@@ -1,5 +1,5 @@
 //=============================================================================
-// rpg_core.js v1.5.2
+// rpg_core.js v1.5.1 - Yanfly Desktop Optimized Version Update
 //=============================================================================
 
 //-----------------------------------------------------------------------------
@@ -180,7 +180,8 @@ Utils.RPGMAKER_NAME = 'MV';
  * @type String
  * @final
  */
-Utils.RPGMAKER_VERSION = "1.5.2";
+Utils.RPGMAKER_VERSION = "1.5.1";
+Utils.RPGMAKER_VERSION.Yanfly = true;
 
 /**
  * Checks whether the option is in the query string.
@@ -1743,7 +1744,7 @@ Graphics.initialize = function(width, height, type) {
     this._errorPrinter = null;
     this._canvas = null;
     this._video = null;
-    this._videoUnlocked = false;
+    this._videoUnlocked = !Utils.isMobileDevice();
     this._videoLoading = false;
     this._upperCanvas = null;
     this._renderer = null;
@@ -2804,8 +2805,6 @@ Graphics._isVideoVisible = function() {
 Graphics._setupEventHandlers = function() {
     window.addEventListener('resize', this._onWindowResize.bind(this));
     document.addEventListener('keydown', this._onKeyDown.bind(this));
-    document.addEventListener('keydown', this._onTouchEnd.bind(this));
-    document.addEventListener('mousedown', this._onTouchEnd.bind(this));
     document.addEventListener('touchend', this._onTouchEnd.bind(this));
 };
 
@@ -4398,7 +4397,7 @@ Sprite.prototype._renderWebGL = function(renderer) {
         } else {
             // use pixi super-speed renderer
             renderer.setObjectRenderer(renderer.plugins[this.pluginName]);
-			renderer.plugins[this.pluginName].render(this);
+            renderer.plugins[this.pluginName].render(this);
         }
     }
 };
@@ -5483,7 +5482,7 @@ Tilemap.WATERFALL_AUTOTILE_TABLE = [
 function ShaderTilemap() {
     Tilemap.apply(this, arguments);
     this.roundPixels = true;
-}
+};
 
 ShaderTilemap.prototype = Object.create(Tilemap.prototype);
 ShaderTilemap.prototype.constructor = ShaderTilemap;
@@ -7805,19 +7804,16 @@ WebAudio._createMasterGainNode = function() {
  * @private
  */
 WebAudio._setupEventHandlers = function() {
-    var resumeHandler = function() {
-        var context = WebAudio._context;
-        if (context && context.state === "suspended" && typeof context.resume === "function") {
-            context.resume().then(function() {
+    document.addEventListener("touchend", function() {
+            var context = WebAudio._context;
+            if (context && context.state === "suspended" && typeof context.resume === "function") {
+                context.resume().then(function() {
+                    WebAudio._onTouchStart();
+                })
+            } else {
                 WebAudio._onTouchStart();
-            })
-        } else {
-            WebAudio._onTouchStart();
-        }
-    };
-    document.addEventListener("keydown", resumeHandler);
-    document.addEventListener("mousedown", resumeHandler);
-    document.addEventListener("touchend", resumeHandler);
+            }
+    });
     document.addEventListener('touchstart', this._onTouchStart.bind(this));
     document.addEventListener('visibilitychange', this._onVisibilityChange.bind(this));
 };
