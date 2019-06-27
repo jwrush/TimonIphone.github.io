@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+}
+body {
+  background: rgb(0,0,0);
+  background: repeating-linear-gradient(0deg, #000000, #041DA5);
+  height: 100%;
+  margin: 0;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+h1 {
+  font-size: 28px;
+  color: #FF9F00;
+}
+img {
+height: 25%;
+}
+
+table {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+  float:center;
+}
+h2 {
+  color: #d8d8d8;
+}
+
+p {
+
+}
+
+
+video {
+  float:left
+}
+
+w {
+  color: #4CFF00;
+  text-align: left;
+}
+
+l {
+  color: red;
+  text-align: left;
+}
